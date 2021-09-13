@@ -1,0 +1,61 @@
+.container {
+  position:relative;
+  height:500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 100px;
+  margin: 50 20px 150px;
+}
+
+.title, .title2 {
+  width: 500px;
+  height: 50px;
+}
+
+.title2 {
+  margin-top: 30px;
+}
+
+.row p {
+  margin-top: 20px;
+}
+
+.col-md-12 {
+  background-color: white;
+  /* background-image: url(images/sample11.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  padding-top: 50px;
+}
+
+.col-md-12 p {
+  font-size: 100%;
+  margin-bottom: 20px;
+}
+
+.mini-title {
+  color: red;
+  font-size: 140%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.fast {
+  margin-top: 30px;
+  width: 260px;
+}
+
+.content p {
+  font-size: 100%;
+}
+
+.content h6 {
+  font-size: 90%;
+}
+
+.facility {
+  display: flex;
+  justify-content: space-around;
+}
+
