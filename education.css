@@ -59,3 +59,42 @@
   justify-content: space-around;
 }
 
+@media screen and (max-width: 599px) {
+  .title, .title2 {
+    width: 250px;
+    margin: 10px auto;
+  }
+
+  .content p, .col-md-12 p {
+    font-size: 60%;
+  }
+
+  .col-md-12 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .facility {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 330px;
+    margin: 10px auto;
+  }
+
+  .institution {
+    width: 140px;
+    margin: 10px;
+  }
+
+  .fast {
+    width: 140px;
+    height: 90px;
+  }
+
+  .facility h6 {
+    font-size: 60%;
+    width: 150px;
+    margin-top: 10px;
+  }
+
+}
