@@ -178,17 +178,21 @@ ul,li {
 .contents {
   margin-top: 100px;
   padding-top: 30px;
-  padding-bottom:30px;
   text-align: center;
-　　　　background-color: pink;
+  background-color: pink;
+  position: relative;
+  height: 75vh;
 }
 
 .concepts p {
   flex-wrap: wrap;
   width: 1000px;
-  margin: 10px auto 10px;
+  margin: 40px auto 60px;
   color: white;
   font-size: 140%;
+  position: absolute;
+  top: 10%;
+  left: 15%;
 }
 
 .title {
@@ -282,8 +286,8 @@ footer {
   }
 
   .logo {
-    width: 100px;
-    height: 35px;
+    width: 120px;
+    height: 30px;
   }
 
   .nav li {
@@ -297,12 +301,19 @@ footer {
     height: 250px;
   }
 
+  .top {
+    height: 1000px;
+  }
+
+
   .contents {
     margin-top: 50px;
     background-image: url(images/pic1.png);
     background-position: center;
     background-size: contain;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    height: 50vh;
+    background-color: initial;
   }
 
   .title {
@@ -314,10 +325,11 @@ footer {
   .contents p {
     flex-wrap: wrap;
     width: 250px;
-    margin: 10px auto;
+    margin: 30px auto;
     padding-top: initial;
     font-size: 60%;
-    color: white
+    color: white;
+    left: 17%;
   }
 
   .lead {
