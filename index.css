@@ -308,25 +308,22 @@ footer {
 
   .contents {
     margin-top: 50px;
-    background-image: url(images/pic1.png);
-    opacity: 0.9;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: contain;
   }
 
   .title {
    padding: initial;
    color: white;
+   margin-bottom: initial;
   }
   
   .contents p {
     flex-wrap: wrap;
     width: 250px;
     margin: 10px auto;
+    padding-top: initial;
     font-size: 60%;
     color: white
-    padding: initial;
   }
 
   .lead {
@@ -360,6 +357,10 @@ footer {
   
   .time {
     font-size: 80%;
+  }
+
+  .ratio {
+    height: 200px;
   }
 
 
