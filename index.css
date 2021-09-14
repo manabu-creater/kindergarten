@@ -180,11 +180,6 @@ ul,li {
   padding-top: 30px;
   padding-bottom:30px;
   text-align: center;
-  background-image: url(images/pic1.png);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
 }
 
 .concepts p {
@@ -303,8 +298,10 @@ footer {
 
   .contents {
     margin-top: 50px;
-/*     background-image: url(images/pic1.png);
-    background-size: 350px 500px; */
+    background-image: url(images/pic1.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
   }
 
   .title {
