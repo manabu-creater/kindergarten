@@ -301,15 +301,10 @@ footer {
     height: 250px;
   }
 
-  .top {
-    height: 1000px;
-  }
-
-
   .contents {
     margin-top: 50px;
     background-image: url(images/pic1.png);
-    background-size: 500px 350px;
+    background-size: 350px 500px;
   }
 
   .title {
